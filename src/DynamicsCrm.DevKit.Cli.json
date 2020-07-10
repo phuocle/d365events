@@ -6,7 +6,8 @@
       "prefix": "abc_",
       "rootfolder": "",
       "includefiles": [
-        "entities\\*.js"
+        "entities\\*.js",
+        "js\\*.js"
       ],
       "excludefiles": [
         "test\\**.js"

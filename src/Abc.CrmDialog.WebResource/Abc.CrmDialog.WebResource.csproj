@@ -52,6 +52,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="js\Address.Dialog.js" />
     <None Include="deploy.debug.bat" />
     <None Include="packages.config" />
     <Content Include="entities\Account.Dialog.js" />
