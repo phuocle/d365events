@@ -1,31 +1,4 @@
 ﻿{
-  "plugins": [
-    {
-      "profile": "DEBUG",
-      "folder": "bin\\Debug",
-      "solution": "???",
-      "includefiles": [
-        "Abc.CrmDialog.Plugin.*.dll",
-        "Abc.CrmDialog.CustomAction.*.dll"
-      ],
-      "excludefiles": [
-        "Abc.CrmDialog.*.Test.dll"
-      ]
-    }
-  ],
-  "workflows": [
-    {
-      "profile": "DEBUG",
-      "folder": "bin\\Debug",
-      "solution": "???",
-      "includefiles": [
-        "Abc.CrmDialog.Workflow.*.dll"
-      ],
-      "excludefiles": [
-        "Abc.CrmDialog.*.Test.dll"
-      ]
-    }
-  ],
   "webresources": [
     {
       "profile": "DEBUG",
@@ -33,146 +6,13 @@
       "prefix": "abc_",
       "rootfolder": "",
       "includefiles": [
-        "css\\**.css",
-        "entities\\*.js",
-        "html\\**.html",
-        "images\\**.png",
-        "js\\**.js",
-        "lib\\**.js",
-        "resources\\*.resx"
+        "entities\\*.js"
       ],
       "excludefiles": [
         "test\\**.js"
       ],
       "dependencies": [
-        {
-          "webresources": [
-            "abc_/entities/[entity].js"
-          ],
-          "dependencies": [
-            "abc_/entities/[entity].form.js",
-            "abc_/entities/[entity].webapi.js"
-          ]
-        },
-        {
-          "webresources": [
-            "abc_/entities/[entity].webapi.js"
-          ],
-          "dependencies": [
-            "abc_/lib/WebApiClient.js"
-          ]
-        },
-        {
-          "webresources": [
-            "abc_/entities/[entity].form.js"
-          ],
-          "dependencies": [
-            "abc_/lib/devkit.js"
-          ]
-        }
       ]
-    }
-  ],
-  "dataproviders": [
-    {
-      "profile": "DEBUG",
-      "folder": "bin\\Debug",
-      "solution": "???",
-      "includefiles": [
-        "Abc.CrmDialog.DataProvider.*.dll"
-      ],
-      "excludefiles": [
-        "Abc.CrmDialog.*.Test.dll"
-      ]
-    }
-  ],
-  "solutionpackagers": [
-    {
-      "profile": "Extract-Unmanaged",
-      "rootfolder": "",
-      "solution": "???",
-      "solutiontype": "Unmanaged",
-      "folder": "???",
-      "type": "Extract",
-      "mapfile": ""
-    },
-    {
-      "profile": "Extract-Managed",
-      "rootfolder": "",
-      "solution": "???",
-      "solutiontype": "Managed",
-      "folder": "???",
-      "type": "Extract",
-      "mapfile": ""
-    },
-    {
-      "profile": "Pack-Unmanaged",
-      "rootfolder": "",
-      "solution": "???",
-      "solutiontype": "Unmanaged",
-      "folder": "???",
-      "type": "Pack",
-      "mapfile": ""
-    },
-    {
-      "profile": "Pack-Managed",
-      "rootfolder": "",
-      "solution": "???",
-      "solutiontype": "Managed",
-      "folder": "???",
-      "type": "Pack",
-      "mapfile": ""
-    }
-  ],
-  "generators": [
-    {
-      "profile": "LATEBOUND",
-      "rootnamespace": "???",
-      "rootfolder": "???",
-      "crmversion": "365",
-      "type": "CSharp",
-      "entities": "",
-      "debug":  ""
-    },
-    {
-      "profile": "JS-FORM",
-      "rootnamespace": "???",
-      "rootfolder": "???",
-      "crmversion": "365",
-      "type": "JsForm",
-      "entities": "",
-      "debug": ""
-    },
-    {
-      "profile": "JS-WEBAPI",
-      "rootnamespace": "???",
-      "rootfolder": "???",
-      "crmversion": "365",
-      "type": "JsWebApi",
-      "entities": "",
-      "debug": ""
-    }
-  ],
-  "downloadwebresources": [
-    {
-      "profile": "DEBUG",
-      "solution": "???",
-      "prefix": "???"
-    }
-  ],
-  "downloadreports": [
-    {
-      "profile": "DEBUG",
-      "folder": "???",
-      "solution":  "???"
-    }
-  ],
-  "proxytypes": [
-    {
-      "profile": "DEBUG",
-      "namespace": "???",
-      "output": "GeneratedCode.cs",
-      "entities":  ""
     }
   ],
   "visualstudio": {

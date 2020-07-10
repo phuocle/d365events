@@ -7,9 +7,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion></ProductVersion>
+    <ProductVersion>
+    </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9c32919a-e097-4b3e-9601-8c3191e4e702}</ProjectGuid>
+    <ProjectGuid>{9C32919A-E097-4B3E-9601-8C3191E4E702}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -25,6 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,40 +42,25 @@
     <OutputPath>..\Release\web\Abc.CrmDialog.WebResource</OutputPath>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x64</PlatformTarget>
     <NoWarn>CS8032</NoWarn>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
-	<ItemGroup>
-    <Folder Include="html\" />
-    <Folder Include="css\" />
-    <Folder Include="js\" />
-		<Folder Include="entities\" />
-		<Folder Include="lib\" />
-    <Folder Include="test\" />
-    <Folder Include="images\"/>
-    <Folder Include="resources\"/>
-		<Compile Include="Properties\AssemblyInfo.cs" />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="deploy.debug.bat" />
     <None Include="packages.config" />
-    <None Include="_package.json" />
-    <None Include="chutzpah.json" />
-    <Content Include="lib\WebApiClient.js" />
-    <Content Include="lib\devkit.js" />
-    <Content Include="entities\DevKit.d.ts" />
-    <Content Include="test\xrm-mock.d.ts" />
-    <Content Include="test\requirejsConfig.js" />
-    <Content Include="test\XrmEnum.js" />
-    <None Include="entities\generator.form.bat" />
-    <None Include="entities\generator.webapi.bat" />
+    <Content Include="entities\Account.Dialog.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Analyzer Include="..\packages\DynamicsCrm.DevKit.Analyzers.2.2.29\analyzers\dotnet\cs\DynamicsCrm.DevKit.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
@@ -92,5 +79,5 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v15.0\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''"/>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v15.0\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
