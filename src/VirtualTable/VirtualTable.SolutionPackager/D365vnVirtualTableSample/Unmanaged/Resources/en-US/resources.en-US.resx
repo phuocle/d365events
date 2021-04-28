@@ -189,6 +189,10 @@
     <value>Name</value>
     <comment>'Azure Account' : label for cell in Entity FormXml ID: '{2ef2a79b-2945-47cf-a06e-f66315f9914b}'</comment>
   </data>
+  <data name="1:label,Azure Account{3e396b31-6e4b-4351-616d-15669286b8bd}" xml:space="preserve">
+    <value>Account</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{3e396b31-6e4b-4351-616d-15669286b8bd}'</comment>
+  </data>
   <data name="1:label,Azure Account{5459c9ce-c158-4141-8462-7ee1ea913eda}" xml:space="preserve">
     <value />
     <comment>'Azure Account' : label for tab in Entity FormXml ID: '{5459c9ce-c158-4141-8462-7ee1ea913eda}'</comment>

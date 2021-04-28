@@ -87,16 +87,20 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="181" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{7d06d245-d3a7-eb11-9442-00224816c046}" />
-        <Dependent key="1" type="1" schemaName="d365vn_azureaccount" displayName="Azure Account" />
+        <Required key="0" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.2.21041.00153)" />
+        <Dependent key="1" type="60" displayName="Azure Account" parentDisplayName="Azure Account" id="{83073630-00b3-4a91-9487-11ee6ddd8459}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="0" type="181" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{7d06d245-d3a7-eb11-9442-00224816c046}" />
-        <Dependent key="2" type="183" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" id="{bb003817-d6a7-eb11-9442-00224816c046}" />
+        <Required key="2" type="181" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{7d06d245-d3a7-eb11-9442-00224816c046}" />
+        <Dependent key="3" type="1" schemaName="d365vn_azureaccount" displayName="Azure Account" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="4" type="80" schemaName="d365vn_VirtualTableSample" displayName="VirtualTableSample" />
+        <Required key="2" type="181" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{7d06d245-d3a7-eb11-9442-00224816c046}" />
+        <Dependent key="4" type="183" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" id="{bb003817-d6a7-eb11-9442-00224816c046}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="6" type="80" schemaName="d365vn_VirtualTableSample" displayName="VirtualTableSample" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

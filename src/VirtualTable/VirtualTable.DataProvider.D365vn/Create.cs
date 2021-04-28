@@ -2,6 +2,7 @@
 using Microsoft.Xrm.Sdk.Extensions;
 using System;
 using VirtualTable.Shared;
+using VirtualTable.Shared.Entities;
 
 namespace VirtualTable.DataProvider.D365vn
 {
@@ -52,12 +53,11 @@ namespace VirtualTable.DataProvider.D365vn
             //var ??? = dataSource.GetAttributeValue<string>("???");
             //var ??? = dataSource.GetAttributeValue<int>("???");
 
-            var target = context.InputParameterOrDefault<Entity>("Target");
-            var id = Guid.NewGuid();
+            //var target = context.InputParameterOrDefault<Entity>("Target");
+            //var id = Guid.NewGuid();
 
-            //YOUR CODE ...
-
-            context.OutputParameters["id"] = id;
+            var setting = new d365vn_sqldatasource(dataSource);
+            context.OutputParameters["id"] = SqlHelper.Create(setting, context, service, tracing);
         }
     }
 }

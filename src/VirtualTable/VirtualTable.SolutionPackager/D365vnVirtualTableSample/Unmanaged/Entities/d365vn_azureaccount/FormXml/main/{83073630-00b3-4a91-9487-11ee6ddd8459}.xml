@@ -40,11 +40,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ee2b9ea8-2099-3cba-e069-8b751987c4bd}" showlabel="true" locklevel="0">
+                      <cell id="{ee2b9ea8-2099-3cba-e069-8b751987c4bd}" showlabel="true" locklevel="0" visible="false">
                         <labels>
                           <label description="Category" languagecode="1033" />
                         </labels>
-                        <control id="d365vn_categorycode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="d365vn_categorycode" disabled="false" />
+                        <control id="d365vn_categorycode" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="d365vn_categorycode" disabled="false" uniqueid="{74d98344-8908-dbd2-e3a6-42eb61a79dbd}" />
                       </cell>
                     </row>
                     <row>
@@ -86,6 +86,18 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{ee1ac250-70eb-486b-971a-4795f13a5623}" columns="1" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{3e396b31-6e4b-4351-616d-15669286b8bd}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Account" languagecode="1033" />
+              </labels>
+              <control id="header_d365vn_accountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="d365vn_accountid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
       <Navigation>
         <NavBar></NavBar>
         <NavBarAreas>
@@ -116,6 +128,33 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{74d98344-8908-dbd2-e3a6-42eb61a79dbd}">
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}">
+            <parameters>
+              <datafieldname>d365vn_categorycode</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>d365vn_categorycode</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>d365vn_categorycode</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>d365vn_categorycode</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
