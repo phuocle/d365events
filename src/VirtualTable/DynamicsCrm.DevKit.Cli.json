@@ -1,0 +1,56 @@
+﻿{
+  "dataproviders": [
+    {
+      "profile": "DEBUG",
+      "folder": "bin\\Debug",
+      "solution": "D365VNVirtualTable",
+      "datasource": "D365VNDataSource",
+      "includefiles": [
+        "VirtualTable.DataProvider.*.dll"
+      ],
+      "excludefiles": [
+        "VirtualTable.*.Test.dll"
+      ]
+    }
+  ],
+  "datasources": [
+    {
+      "profile": "DEBUG",
+      "displayname": "D365VN",
+      "pluralname": "D365VNs",
+      "solution": "D365VNVirtualTable",
+      "name": "D365VNDataSource"
+    }
+  ],
+  "solutionpackagers": [
+    {
+      "profile": "Extract-Unmanaged",
+      "rootfolder": "",
+      "solution": "D365VNVirtualTable",
+      "solutiontype": "Unmanaged",
+      "folder": "D365VNVirtualTable",
+      "type": "Extract",
+      "mapfile": ""
+    },
+    {
+      "profile": "Extract-Managed",
+      "rootfolder": "",
+      "solution": "D365VNVirtualTable",
+      "solutiontype": "Managed",
+      "folder": "D365VNVirtualTable",
+      "type": "Extract",
+      "mapfile": ""
+    }
+  ],
+  "generators": [
+    {
+      "profile": "LATEBOUND",
+      "rootnamespace": "???",
+      "rootfolder": "???",
+      "crmversion": "365",
+      "type": "CSharp",
+      "entities": "",
+      "debug": ""
+    }
+  ]
+}

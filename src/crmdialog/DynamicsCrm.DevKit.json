@@ -1,0 +1,13 @@
+﻿{
+    "DefaultCrmName": "Dynamics 365 - 4.6.2",
+    "DefaultCrmConnection": "DEV4",
+    "CrmConnections": [
+        {
+            "Name": "DEV4",
+            "Url": "https://org581e92dc.crm5.dynamics.com",
+            "UserName": "ac758a0d-4aee-4763-b91a-5c269d2dd983",
+            "Password": "YnoI6CA-3-v4RWSHqm~5u92i43n_0S71__",
+            "Type": "ClientSecret"
+        }
+    ]
+}
