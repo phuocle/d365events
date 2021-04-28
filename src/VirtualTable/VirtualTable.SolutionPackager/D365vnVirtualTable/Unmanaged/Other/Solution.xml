@@ -81,6 +81,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="d365vn_sqldatasource" behavior="0" />
+      <RootComponent type="60" id="{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" behavior="0" />
       <RootComponent type="91" id="{16c49b3f-d3a7-eb11-9442-00224816c046}" schemaName="VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" behavior="0" />
       <RootComponent type="181" id="{7d06d245-d3a7-eb11-9442-00224816c046}" schemaName="VirtualTable.DataProvider.D365vn" behavior="0" />
     </RootComponents>

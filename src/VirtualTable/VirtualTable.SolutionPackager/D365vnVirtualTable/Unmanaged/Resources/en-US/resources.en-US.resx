@@ -91,6 +91,18 @@ Contact me:
     <value>D365vn.VirtualTable</value>
     <comment> 'D365vnVirtualTable' : LocalizedName for Solution</comment>
   </data>
+  <data name="1:Description,d365vn_sqldatasourced365vn_ExternalCreatedOnField" xml:space="preserve">
+    <value />
+    <comment>'d365vn_sqldatasource' : Description for Attribute 'd365vn_ExternalCreatedOnField' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_sqldatasourced365vn_ExternalModifiedOnField" xml:space="preserve">
+    <value />
+    <comment>'d365vn_sqldatasource' : Description for Attribute 'd365vn_ExternalModifiedOnField' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_sqldatasourced365vn_SqlConnectionString" xml:space="preserve">
+    <value />
+    <comment>'d365vn_sqldatasource' : Description for Attribute 'd365vn_SqlConnectionString' on Entity</comment>
+  </data>
   <data name="1:Description,d365vn_sqldatasourced365vn_sqldatasourceId" xml:space="preserve">
     <value>Unique identifier for entity instances</value>
     <comment>'d365vn_sqldatasource' : Description for Attribute 'd365vn_sqldatasourceId' on Entity</comment>
@@ -111,13 +123,29 @@ Contact me:
     <value>All active Sql DataSources</value>
     <comment>'Sql DataSource' : Description for SavedQuery on Entity QueryId: '{81e05606-d3a7-eb11-9442-00224816c046}'</comment>
   </data>
+  <data name="1:displayname,d365vn_sqldatasourced365vn_ExternalCreatedOnField" xml:space="preserve">
+    <value>External Created On Field</value>
+    <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_ExternalCreatedOnField' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_sqldatasourced365vn_ExternalModifiedOnField" xml:space="preserve">
+    <value>External Modified On Field</value>
+    <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_ExternalModifiedOnField' on Entity</comment>
+  </data>
   <data name="1:displayname,d365vn_sqldatasourced365vn_name" xml:space="preserve">
     <value>Sql DataSource</value>
     <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_name' on Entity</comment>
   </data>
+  <data name="1:displayname,d365vn_sqldatasourced365vn_SqlConnectionString" xml:space="preserve">
+    <value>Sql Connection String</value>
+    <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_SqlConnectionString' on Entity</comment>
+  </data>
   <data name="1:displayname,d365vn_sqldatasourced365vn_sqldatasourceId" xml:space="preserve">
     <value>Sql DataSource</value>
     <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_sqldatasourceId' on Entity</comment>
+  </data>
+  <data name="1:label,Sql DataSource{11365ba4-c4b7-4a80-7d6a-94b8ac13c664}" xml:space="preserve">
+    <value>External Modified On Field</value>
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{11365ba4-c4b7-4a80-7d6a-94b8ac13c664}'</comment>
   </data>
   <data name="1:label,Sql DataSource{370fa324-96ba-40c4-b692-394c88e09b72}" xml:space="preserve">
     <value>General</value>
@@ -134,6 +162,10 @@ Contact me:
   <data name="1:label,Sql DataSource{51127052-fa79-43ad-9cbe-916e4329948b}" xml:space="preserve">
     <value>ColorStrip</value>
     <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{51127052-fa79-43ad-9cbe-916e4329948b}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{5e37624a-dc6b-9b16-8904-077940e868c2}" xml:space="preserve">
+    <value>Sql Connection String</value>
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{5e37624a-dc6b-9b16-8904-077940e868c2}'</comment>
   </data>
   <data name="1:label,Sql DataSource{774e92d8-fbd1-4368-9878-68667364df32}" xml:space="preserve">
     <value>Sql DataSource</value>
@@ -154,6 +186,10 @@ Contact me:
   <data name="1:label,Sql DataSource{9527aecf-0143-479f-a5fd-59648a48f2a0}" xml:space="preserve">
     <value>Header</value>
     <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{9527aecf-0143-479f-a5fd-59648a48f2a0}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{95817989-56aa-549e-98e2-8d8d786b83da}" xml:space="preserve">
+    <value>External Created On Field</value>
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{95817989-56aa-549e-98e2-8d8d786b83da}'</comment>
   </data>
   <data name="1:label,Sql DataSource{a192b5cf-40b7-4729-ba1a-aff73529a95b}" xml:space="preserve">
     <value />
@@ -200,7 +236,7 @@ Contact me:
     <comment> 'd365vn_sqldatasource' : LocalizedName for Entity</comment>
   </data>
   <data name="1:LocalizedName,Sql DataSource{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
-    <value>Information</value>
+    <value>Sql DataSource</value>
     <comment>'Sql DataSource' : LocalizedName for systemform in Entity FormXml ID: '{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}'</comment>
   </data>
   <data name="1:LocalizedName,Sql DataSource{07e67705-d27b-4c0e-bb44-13e7bb365d22}" xml:space="preserve">
@@ -234,5 +270,25 @@ Contact me:
   <data name="1:LocalizedName,Sql DataSource{efbd9c5b-e70e-4912-be03-15b0990bce3b}" xml:space="preserve">
     <value>Information</value>
     <comment>'Sql DataSource' : LocalizedName for systemform in Entity FormXml ID: '{efbd9c5b-e70e-4912-be03-15b0990bce3b}'</comment>
+  </data>
+  <data name="1:Title,Sql DataSourceInfo{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Sql DataSource' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Sql DataSourceMarketing{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Sql DataSource' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Sql DataSourceProcessCenter{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Sql DataSource' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Sql DataSourceSales{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Sql DataSource' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Sql DataSourceService{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Sql DataSource' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
 </root>

@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form shownavigationbar="false" showImage="false" maxWidth="1920">
       <tabs>
         <tab verticallayout="true" id="{8c63396a-b13d-40db-92b6-fdfa1a06ed3a}" IsUserDefined="1">
           <labels>
@@ -31,6 +31,30 @@
                         <control id="d365vn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="d365vn_name" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{5e37624a-dc6b-9b16-8904-077940e868c2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Sql Connection String" languagecode="1033" />
+                        </labels>
+                        <control id="d365vn_sqlconnectionstring" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="d365vn_sqlconnectionstring" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95817989-56aa-549e-98e2-8d8d786b83da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Created On Field" languagecode="1033" />
+                        </labels>
+                        <control id="d365vn_externalcreatedonfield" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="d365vn_externalcreatedonfield" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11365ba4-c4b7-4a80-7d6a-94b8ac13c664}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External Modified On Field" languagecode="1033" />
+                        </labels>
+                        <control id="d365vn_externalmodifiedonfield" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="d365vn_externalmodifiedonfield" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -38,11 +62,41 @@
           </columns>
         </tab>
       </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Sql DataSource" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

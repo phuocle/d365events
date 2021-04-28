@@ -79,8 +79,11 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="d365vn_azureaccount" behavior="0" />
+      <RootComponent type="29" id="{a9bfd175-e4a7-eb11-9442-00224816c046}" behavior="0" />
+      <RootComponent type="60" id="{83073630-00b3-4a91-9487-11ee6ddd8459}" behavior="0" />
       <RootComponent type="62" schemaName="d365vn_VirtualTableSample" behavior="0" />
       <RootComponent type="80" schemaName="d365vn_VirtualTableSample" behavior="0" />
+      <RootComponent type="183" id="{bb003817-d6a7-eb11-9442-00224816c046}" schemaName="VirtualTable.DataProvider.D365vn" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
@@ -88,8 +91,8 @@
         <Dependent key="1" type="1" schemaName="d365vn_azureaccount" displayName="Azure Account" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="183" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{bb003817-d6a7-eb11-9442-00224816c046}" />
-        <Dependent key="1" type="1" schemaName="d365vn_azureaccount" displayName="Azure Account" />
+        <Required key="0" type="181" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" solution="Active" id="{7d06d245-d3a7-eb11-9442-00224816c046}" />
+        <Dependent key="2" type="183" schemaName="VirtualTable.DataProvider.D365vn" displayName="VirtualTable.DataProvider.D365vn" id="{bb003817-d6a7-eb11-9442-00224816c046}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="3" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />

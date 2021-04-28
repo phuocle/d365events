@@ -11,6 +11,8 @@
       <grid name="d365vn_azureaccounts" jump="d365vn_name" select="1" icon="1" preview="0">
         <row name="d365vn_azureaccount" id="d365vn_azureaccountid">
           <cell name="d365vn_name" width="300" />
+          <cell name="d365vn_categorycode" width="100" />
+          <cell name="d365vn_city" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -20,6 +22,9 @@
         <entity name="d365vn_azureaccount">
           <attribute name="d365vn_azureaccountid" />
           <attribute name="d365vn_name" />
+          <order attribute="d365vn_name" descending="false" />
+          <attribute name="d365vn_city" />
+          <attribute name="d365vn_categorycode" />
         </entity>
       </fetch>
     </fetchxml>

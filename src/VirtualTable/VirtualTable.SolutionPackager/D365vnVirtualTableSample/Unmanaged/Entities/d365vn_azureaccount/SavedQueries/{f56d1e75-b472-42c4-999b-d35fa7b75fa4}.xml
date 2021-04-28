@@ -11,6 +11,12 @@
       <grid name="resultset" jump="d365vn_name" select="1" icon="1" preview="1">
         <row name="result" id="d365vn_azureaccountid">
           <cell name="d365vn_name" width="300" />
+          <cell name="d365vn_accountid" width="100" />
+          <cell name="d365vn_categorycode" width="100" />
+          <cell name="d365vn_city" width="100" />
+          <cell name="d365vn_price" width="100" />
+          <cell name="d365vn_createdon" width="100" />
+          <cell name="d365vn_modifiedon" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -18,8 +24,19 @@
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="d365vn_azureaccount">
-          <attribute name="d365vn_azureaccountid" />
           <attribute name="d365vn_name" />
+          <attribute name="d365vn_price" />
+          <attribute name="d365vn_modifiedon" />
+          <attribute name="d365vn_createdon" />
+          <attribute name="d365vn_city" />
+          <attribute name="d365vn_categorycode" />
+          <attribute name="d365vn_accountid" />
+          <order attribute="d365vn_modifiedon" descending="true" />
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="d365vn_name" operator="like" value="{0}" />
+            <condition attribute="d365vn_city" operator="like" value="{0}" />
+          </filter>
+          <attribute name="d365vn_azureaccountid" />
         </entity>
       </fetch>
     </fetchxml>

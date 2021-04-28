@@ -73,6 +73,10 @@
   <metadata name="SolutionPackager Version String" xml:space="preserve">
     <value>9.0.0.0</value>
   </metadata>
+  <data name="10:Description,d365vn_account_d365vn_azureaccount_Account" xml:space="preserve">
+    <value />
+    <comment>d365vn_azureaccount Description for EntityRelationship 'd365vn_account_d365vn_azureaccount_Account'</comment>
+  </data>
   <data name="15062:LocalizedName,d365vnd365vn20000" xml:space="preserve">
     <value>D365vn</value>
     <comment> 'd365vn' : LocalizedName for Solution Publisher</comment>
@@ -93,25 +97,81 @@
     <value>A card form for this entity.</value>
     <comment>'Azure Account' : Description for systemform in Entity FormXml ID: '{baedc063-a8cd-4773-b03d-2f1f5729fca5}'</comment>
   </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_AccountId" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_AccountId' on Entity</comment>
+  </data>
   <data name="1:Description,d365vn_azureaccountd365vn_azureaccountId" xml:space="preserve">
     <value>Unique identifier for entity instances</value>
     <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_azureaccountId' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_azureaccount_d365vn_categorycode" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for OptionSet 'd365vn_azureaccount_d365vn_categorycode' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_CategoryCode" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_CategoryCode' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_City" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_City' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_CreatedOn" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_ModifiedOn" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_ModifiedOn' on Entity</comment>
   </data>
   <data name="1:Description,d365vn_azureaccountd365vn_name" xml:space="preserve">
     <value>The name of the custom entity.</value>
     <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_name' on Entity</comment>
   </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_Price" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_Price' on Entity</comment>
+  </data>
   <data name="1:Description,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
     <value />
     <comment> 'd365vn_azureaccount' : Description for Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_AccountId" xml:space="preserve">
+    <value>Account</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_AccountId' on Entity</comment>
   </data>
   <data name="1:displayname,d365vn_azureaccountd365vn_azureaccountId" xml:space="preserve">
     <value>Azure Account</value>
     <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_azureaccountId' on Entity</comment>
   </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_azureaccount_d365vn_categorycode" xml:space="preserve">
+    <value>Category</value>
+    <comment>'d365vn_azureaccount' : displayname for OptionSet 'd365vn_azureaccount_d365vn_categorycode' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_CategoryCode" xml:space="preserve">
+    <value>Category</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_CategoryCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_City" xml:space="preserve">
+    <value>City</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_City' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_CreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_ModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_ModifiedOn' on Entity</comment>
+  </data>
   <data name="1:displayname,d365vn_azureaccountd365vn_name" xml:space="preserve">
     <value>Name</value>
     <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_Price" xml:space="preserve">
+    <value>Price</value>
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_Price' on Entity</comment>
   </data>
   <data name="1:label,Azure Account{0093bc4e-b731-4316-a62f-f66be46ed5f1}" xml:space="preserve">
     <value />
@@ -133,6 +193,10 @@
     <value />
     <comment>'Azure Account' : label for tab in Entity FormXml ID: '{5459c9ce-c158-4141-8462-7ee1ea913eda}'</comment>
   </data>
+  <data name="1:label,Azure Account{696a83d9-d12e-28c6-30cb-4190c019c177}" xml:space="preserve">
+    <value>Price</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{696a83d9-d12e-28c6-30cb-4190c019c177}'</comment>
+  </data>
   <data name="1:label,Azure Account{735a23af-175b-416b-9f98-0f57c140137f}" xml:space="preserve">
     <value>Header</value>
     <comment>'Azure Account' : label for section in Entity FormXml ID: '{735a23af-175b-416b-9f98-0f57c140137f}'</comment>
@@ -141,6 +205,14 @@
     <value>GENERAL</value>
     <comment>'Azure Account' : label for section in Entity FormXml ID: '{7d17790e-c304-473f-ae93-589decbe303f}'</comment>
   </data>
+  <data name="1:label,Azure Account{847168b9-3da5-d84b-b0aa-e8ebab6677aa}" xml:space="preserve">
+    <value>Account</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{847168b9-3da5-d84b-b0aa-e8ebab6677aa}'</comment>
+  </data>
+  <data name="1:label,Azure Account{886dc672-0a9c-b0ac-95b8-7c6ceaad0901}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{886dc672-0a9c-b0ac-95b8-7c6ceaad0901}'</comment>
+  </data>
   <data name="1:label,Azure Account{969af852-8be3-4eb3-ab10-70ad47171e91}" xml:space="preserve">
     <value>General</value>
     <comment>'Azure Account' : label for tab in Entity FormXml ID: '{969af852-8be3-4eb3-ab10-70ad47171e91}'</comment>
@@ -148,6 +220,10 @@
   <data name="1:label,Azure Account{a310d080-a4a0-4eb8-ad18-9d60c81af20d}" xml:space="preserve">
     <value />
     <comment>'Azure Account' : label for cell in Entity FormXml ID: '{a310d080-a4a0-4eb8-ad18-9d60c81af20d}'</comment>
+  </data>
+  <data name="1:label,Azure Account{b0c162ec-0c40-8ea0-c595-ca9b308b08c8}" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{b0c162ec-0c40-8ea0-c595-ca9b308b08c8}'</comment>
   </data>
   <data name="1:label,Azure Account{b2aef232-6603-4b10-84bf-c747c0477f60}" xml:space="preserve">
     <value>General</value>
@@ -158,7 +234,7 @@
     <comment>'Azure Account' : label for cell in Entity FormXml ID: '{b3d05cf4-8d78-4f10-a6a1-cfb7481c313e}'</comment>
   </data>
   <data name="1:label,Azure Account{c4a00784-cfd8-4a93-ae86-ac0d244b914f}" xml:space="preserve">
-    <value />
+    <value>Name</value>
     <comment>'Azure Account' : label for cell in Entity FormXml ID: '{c4a00784-cfd8-4a93-ae86-ac0d244b914f}'</comment>
   </data>
   <data name="1:label,Azure Account{c6734c2b-89ef-43d1-b2ac-f46100891363}" xml:space="preserve">
@@ -173,9 +249,17 @@
     <value />
     <comment>'Azure Account' : label for tab in Entity FormXml ID: '{ccfcc00e-458b-4ec7-bb2f-9a2e617f1a32}'</comment>
   </data>
+  <data name="1:label,Azure Account{d9661330-d812-1711-bbab-0c98861aae82}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{d9661330-d812-1711-bbab-0c98861aae82}'</comment>
+  </data>
   <data name="1:label,Azure Account{e04344c4-2cf2-4926-bdae-d58dede76fa5}" xml:space="preserve">
     <value>ColorStrip</value>
     <comment>'Azure Account' : label for section in Entity FormXml ID: '{e04344c4-2cf2-4926-bdae-d58dede76fa5}'</comment>
+  </data>
+  <data name="1:label,Azure Account{ee2b9ea8-2099-3cba-e069-8b751987c4bd}" xml:space="preserve">
+    <value>Category</value>
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{ee2b9ea8-2099-3cba-e069-8b751987c4bd}'</comment>
   </data>
   <data name="1:label,Azure Account{fd6c12b4-1f79-48b0-9f83-19dff0213395}" xml:space="preserve">
     <value />
@@ -184,6 +268,14 @@
   <data name="1:label,Azure Account{ffe6e216-fb5f-4415-9f8a-e69f959483a6}" xml:space="preserve">
     <value>Footer</value>
     <comment>'Azure Account' : label for section in Entity FormXml ID: '{ffe6e216-fb5f-4415-9f8a-e69f959483a6}'</comment>
+  </data>
+  <data name="1:label,d365vn_azureaccountd365vn_azureaccount_d365vn_categorycode1" xml:space="preserve">
+    <value>Organization</value>
+    <comment>'d365vn_azureaccount' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,d365vn_azureaccountd365vn_azureaccount_d365vn_categorycode2" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'d365vn_azureaccount' : label for option '2' on Entity</comment>
   </data>
   <data name="1:LocalizedCollectionName,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
     <value>Azure Accounts</value>
@@ -202,7 +294,7 @@
     <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{57ca2f70-af09-4a73-990d-20d3b113fc63}'</comment>
   </data>
   <data name="1:LocalizedName,Azure Account{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
-    <value>Information</value>
+    <value>Azure Account</value>
     <comment>'Azure Account' : LocalizedName for systemform in Entity FormXml ID: '{83073630-00b3-4a91-9487-11ee6ddd8459}'</comment>
   </data>
   <data name="1:LocalizedName,Azure Account{9f1ef729-3a04-4a1a-993a-b3e11a7b9655}" xml:space="preserve">
@@ -228,6 +320,34 @@
   <data name="1:LocalizedName,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
     <value>Azure Account</value>
     <comment> 'd365vn_azureaccount' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,Azure AccountInfo{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Azure Account' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Azure AccountMarketing{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Azure Account' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Azure AccountProcessCenter{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Azure Account' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Azure AccountSales{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Azure Account' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Azure AccountService{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Azure Account' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="29:Description,{a9bfd175-e4a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value>Always lock 2 fields</value>
+    <comment>'Lock Created On and Modified On' : Description for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{a9bfd175-e4a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value>Lock Created On and Modified On</value>
+    <comment>'Lock Created On and Modified On' : LocalizedName for Workflow</comment>
   </data>
   <data name="80:LocalizedName,d365vn_VirtualTableSample" xml:space="preserve">
     <value>VirtualTableSample</value>
