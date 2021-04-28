@@ -1,8 +1,10 @@
-﻿using Microsoft.Xrm.Sdk;
+﻿using Microsoft.Crm.Sdk.Messages;
+using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Extensions;
 using Microsoft.Xrm.Sdk.Query;
 using System;
 using VirtualTable.Shared;
+using VirtualTable.Shared.Entities;
 
 namespace VirtualTable.DataProvider.D365vn
 {
@@ -49,22 +51,28 @@ namespace VirtualTable.DataProvider.D365vn
             //Get Parameter from DataSource
             //var ??? = dataSource.GetAttributeValue<string>("???");
             //var ??? = dataSource.GetAttributeValue<int>("???");
-
+            var setting = new d365vn_sqldatasource(dataSource);
             var query = context.InputParameters["Query"];
             var entities = new EntityCollection();
             entities.EntityName = context.PrimaryEntityName;
+            string fetchXml;
             if (query is QueryExpression qe)
             {
                 //UCI grid return QueryExpression
+                var convertRequest = new QueryExpressionToFetchXmlRequest();
+                convertRequest.Query = (QueryExpression)qe;
+                var response = (QueryExpressionToFetchXmlResponse)service.Execute(convertRequest);
+                fetchXml = response.FetchXml;
             }
             else if (query is FetchExpression fe)
             {
                 //Advanced Find, Classic grid return FetchExpression
+                fetchXml = fe.Query;
             }
             else
                 throw new InvalidPluginExecutionException("Somthing wrong with Query");
 
-            context.OutputParameters["BusinessEntityCollection"] = entities;
+            context.OutputParameters["BusinessEntityCollection"] = SqlHelper.RetrieveMultiple(fetchXml, setting, context, service, tracing);
         }
     }
 }

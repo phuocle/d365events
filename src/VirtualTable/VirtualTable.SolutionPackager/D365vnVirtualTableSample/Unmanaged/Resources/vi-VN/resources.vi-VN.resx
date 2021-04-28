@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1066</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>D365vnVirtualTableSample_1.0.0000.0.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="15062:LocalizedName,d365vnd365vn20000" xml:space="preserve">
+    <value />
+    <comment> 'd365vn' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,D365vnVirtualTableSample" xml:space="preserve">
+    <value />
+    <comment> 'D365vnVirtualTableSample' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Azure Account{33cd8056-e2a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : Description for SavedQuery on Entity QueryId: '{33cd8056-e2a7-eb11-9442-00224816c046}'</comment>
+  </data>
+  <data name="1:Description,Azure Account{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : Description for systemform in Entity FormXml ID: '{83073630-00b3-4a91-9487-11ee6ddd8459}'</comment>
+  </data>
+  <data name="1:Description,Azure Account{baedc063-a8cd-4773-b03d-2f1f5729fca5}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : Description for systemform in Entity FormXml ID: '{baedc063-a8cd-4773-b03d-2f1f5729fca5}'</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_azureaccountId" xml:space="preserve">
+    <value>Mã định danh duy nhất của phiên bản thực thể</value>
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_azureaccountId' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountd365vn_name" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : Description for Attribute 'd365vn_name' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_azureaccount' : Description for Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_azureaccountId" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_azureaccountId' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_azureaccountd365vn_name" xml:space="preserve">
+    <value />
+    <comment>'d365vn_azureaccount' : displayname for Attribute 'd365vn_name' on Entity</comment>
+  </data>
+  <data name="1:label,Azure Account{0093bc4e-b731-4316-a62f-f66be46ed5f1}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{0093bc4e-b731-4316-a62f-f66be46ed5f1}'</comment>
+  </data>
+  <data name="1:label,Azure Account{1e0e83fa-2ee4-480d-8460-a790e0b8acee}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{1e0e83fa-2ee4-480d-8460-a790e0b8acee}'</comment>
+  </data>
+  <data name="1:label,Azure Account{23a0f567-12f9-474b-92c0-6272cc4c58b3}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{23a0f567-12f9-474b-92c0-6272cc4c58b3}'</comment>
+  </data>
+  <data name="1:label,Azure Account{2ef2a79b-2945-47cf-a06e-f66315f9914b}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{2ef2a79b-2945-47cf-a06e-f66315f9914b}'</comment>
+  </data>
+  <data name="1:label,Azure Account{5459c9ce-c158-4141-8462-7ee1ea913eda}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for tab in Entity FormXml ID: '{5459c9ce-c158-4141-8462-7ee1ea913eda}'</comment>
+  </data>
+  <data name="1:label,Azure Account{735a23af-175b-416b-9f98-0f57c140137f}" xml:space="preserve">
+    <value>Đầu trang</value>
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{735a23af-175b-416b-9f98-0f57c140137f}'</comment>
+  </data>
+  <data name="1:label,Azure Account{7d17790e-c304-473f-ae93-589decbe303f}" xml:space="preserve">
+    <value>TỔNG QUÁT</value>
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{7d17790e-c304-473f-ae93-589decbe303f}'</comment>
+  </data>
+  <data name="1:label,Azure Account{969af852-8be3-4eb3-ab10-70ad47171e91}" xml:space="preserve">
+    <value>Tổng quát</value>
+    <comment>'Azure Account' : label for tab in Entity FormXml ID: '{969af852-8be3-4eb3-ab10-70ad47171e91}'</comment>
+  </data>
+  <data name="1:label,Azure Account{a310d080-a4a0-4eb8-ad18-9d60c81af20d}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{a310d080-a4a0-4eb8-ad18-9d60c81af20d}'</comment>
+  </data>
+  <data name="1:label,Azure Account{b2aef232-6603-4b10-84bf-c747c0477f60}" xml:space="preserve">
+    <value>Tổng quát</value>
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{b2aef232-6603-4b10-84bf-c747c0477f60}'</comment>
+  </data>
+  <data name="1:label,Azure Account{b3d05cf4-8d78-4f10-a6a1-cfb7481c313e}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{b3d05cf4-8d78-4f10-a6a1-cfb7481c313e}'</comment>
+  </data>
+  <data name="1:label,Azure Account{c4a00784-cfd8-4a93-ae86-ac0d244b914f}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{c4a00784-cfd8-4a93-ae86-ac0d244b914f}'</comment>
+  </data>
+  <data name="1:label,Azure Account{c6734c2b-89ef-43d1-b2ac-f46100891363}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{c6734c2b-89ef-43d1-b2ac-f46100891363}'</comment>
+  </data>
+  <data name="1:label,Azure Account{c9ca1fb4-7e74-4a93-81dd-80aa5817a495}" xml:space="preserve">
+    <value>Các chi tiết</value>
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{c9ca1fb4-7e74-4a93-81dd-80aa5817a495}'</comment>
+  </data>
+  <data name="1:label,Azure Account{ccfcc00e-458b-4ec7-bb2f-9a2e617f1a32}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for tab in Entity FormXml ID: '{ccfcc00e-458b-4ec7-bb2f-9a2e617f1a32}'</comment>
+  </data>
+  <data name="1:label,Azure Account{e04344c4-2cf2-4926-bdae-d58dede76fa5}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{e04344c4-2cf2-4926-bdae-d58dede76fa5}'</comment>
+  </data>
+  <data name="1:label,Azure Account{fd6c12b4-1f79-48b0-9f83-19dff0213395}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : label for cell in Entity FormXml ID: '{fd6c12b4-1f79-48b0-9f83-19dff0213395}'</comment>
+  </data>
+  <data name="1:label,Azure Account{ffe6e216-fb5f-4415-9f8a-e69f959483a6}" xml:space="preserve">
+    <value>Chân trang</value>
+    <comment>'Azure Account' : label for section in Entity FormXml ID: '{ffe6e216-fb5f-4415-9f8a-e69f959483a6}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_azureaccount' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{33cd8056-e2a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{33cd8056-e2a7-eb11-9442-00224816c046}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{3433e643-dc3c-4c97-8021-04b750205b77}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for systemform in Entity FormXml ID: '{3433e643-dc3c-4c97-8021-04b750205b77}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{57ca2f70-af09-4a73-990d-20d3b113fc63}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{57ca2f70-af09-4a73-990d-20d3b113fc63}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{83073630-00b3-4a91-9487-11ee6ddd8459}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for systemform in Entity FormXml ID: '{83073630-00b3-4a91-9487-11ee6ddd8459}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{9f1ef729-3a04-4a1a-993a-b3e11a7b9655}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{9f1ef729-3a04-4a1a-993a-b3e11a7b9655}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{baedc063-a8cd-4773-b03d-2f1f5729fca5}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for systemform in Entity FormXml ID: '{baedc063-a8cd-4773-b03d-2f1f5729fca5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{c6204c86-a9bc-496f-a101-8ba40de3182e}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{c6204c86-a9bc-496f-a101-8ba40de3182e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{eaecf77c-7d0f-44b7-96c7-7006526cd935}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{eaecf77c-7d0f-44b7-96c7-7006526cd935}'</comment>
+  </data>
+  <data name="1:LocalizedName,Azure Account{f56d1e75-b472-42c4-999b-d35fa7b75fa4}" xml:space="preserve">
+    <value />
+    <comment>'Azure Account' : LocalizedName for SavedQuery on Entity QueryId: '{f56d1e75-b472-42c4-999b-d35fa7b75fa4}'</comment>
+  </data>
+  <data name="1:LocalizedName,d365vn_azureaccountentityd365vn_azureaccount" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_azureaccount' : LocalizedName for Entity</comment>
+  </data>
+  <data name="80:LocalizedName,d365vn_VirtualTableSample" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_VirtualTableSample' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,d365vn_VirtualTableSample" xml:space="preserve">
+    <value />
+    <comment>'d365vn_VirtualTableSample' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,New_AreaNew_Area" xml:space="preserve">
+    <value />
+    <comment>Title for Area 'New_Area' Area 'New_Area'</comment>
+  </data>
+  <data name="81:Title,New_AreaNew_Group" xml:space="preserve">
+    <value />
+    <comment>Title for Area 'New_Area' Group 'New_Group'</comment>
+  </data>
+</root>

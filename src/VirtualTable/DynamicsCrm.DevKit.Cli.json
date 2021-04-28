@@ -40,6 +40,24 @@
       "folder": "D365vnVirtualTable",
       "type": "Extract",
       "mapfile": ""
+    },
+    {
+      "profile": "Extract-Unmanaged-Sample",
+      "rootfolder": "",
+      "solution": "D365vnVirtualTableSample",
+      "solutiontype": "Unmanaged",
+      "folder": "D365vnVirtualTableSample",
+      "type": "Extract",
+      "mapfile": ""
+    },
+    {
+      "profile": "Extract-Managed-Sample",
+      "rootfolder": "",
+      "solution": "D365vnVirtualTableSample",
+      "solutiontype": "Managed",
+      "folder": "D365vnVirtualTableSample",
+      "type": "Extract",
+      "mapfile": ""
     }
   ],
   "generators": [

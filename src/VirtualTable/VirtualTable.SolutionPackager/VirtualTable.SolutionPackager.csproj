@@ -36,6 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Extract-Managed-Sample.bat" />
+    <None Include="Extract-Unmanaged-Sample.bat" />
     <None Include="packages.config" />
     <None Include="Extract-Managed.bat" />
     <None Include="Extract-Unmanaged.bat" />
