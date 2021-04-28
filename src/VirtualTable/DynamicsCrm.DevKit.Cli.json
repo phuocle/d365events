@@ -3,8 +3,8 @@
     {
       "profile": "DEBUG",
       "folder": "bin\\Debug",
-      "solution": "D365VNVirtualTable",
-      "datasource": "D365VNDataSource",
+      "solution": "D365vnVirtualTable",
+      "datasource": "SqlDataSource",
       "includefiles": [
         "VirtualTable.DataProvider.*.dll"
       ],
@@ -16,28 +16,28 @@
   "datasources": [
     {
       "profile": "DEBUG",
-      "displayname": "D365VN",
-      "pluralname": "D365VNs",
-      "solution": "D365VNVirtualTable",
-      "name": "D365VNDataSource"
+      "displayname": "Sql DataSource",
+      "pluralname": "Sql DataSources",
+      "solution": "D365vnVirtualTable",
+      "name": "SqlDataSource"
     }
   ],
   "solutionpackagers": [
     {
       "profile": "Extract-Unmanaged",
       "rootfolder": "",
-      "solution": "D365VNVirtualTable",
+      "solution": "D365vnVirtualTable",
       "solutiontype": "Unmanaged",
-      "folder": "D365VNVirtualTable",
+      "folder": "D365vnVirtualTable",
       "type": "Extract",
       "mapfile": ""
     },
     {
       "profile": "Extract-Managed",
       "rootfolder": "",
-      "solution": "D365VNVirtualTable",
+      "solution": "D365vnVirtualTable",
       "solutiontype": "Managed",
-      "folder": "D365VNVirtualTable",
+      "folder": "D365vnVirtualTable",
       "type": "Extract",
       "mapfile": ""
     }

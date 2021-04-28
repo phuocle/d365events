@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataProvider xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityDataProviderId>{7d06d245-d3a7-eb11-9442-00224816c046}</EntityDataProviderId>
+  <Name>VirtualTable.DataProvider.D365vn</Name>
+  <DataSourceLogicalName>d365vn_sqldatasource</DataSourceLogicalName>
+  <IsCustomizable>1</IsCustomizable>
+  <RetrievePluginTypeId>1dc49b3f-d3a7-eb11-9442-00224816c046</RetrievePluginTypeId>
+  <RetrieveMultiplePluginTypeId>7906d245-d3a7-eb11-9442-00224816c046</RetrieveMultiplePluginTypeId>
+  <CreatePluginTypeId>7a06d245-d3a7-eb11-9442-00224816c046</CreatePluginTypeId>
+  <UpdatePluginTypeId>7b06d245-d3a7-eb11-9442-00224816c046</UpdatePluginTypeId>
+  <DeletePluginTypeId>7c06d245-d3a7-eb11-9442-00224816c046</DeletePluginTypeId>
+</EntityDataProvider>

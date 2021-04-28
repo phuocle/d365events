@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginAssemblyId="16c49b3f-d3a7-eb11-9442-00224816c046" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/VirtualTableDataProviderD365vn-16C49B3F-D3A7-EB11-9442-00224816C046/VirtualTableDataProviderD365vn.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="VirtualTable.DataProvider.D365vn.Create, VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginTypeId="7a06d245-d3a7-eb11-9442-00224816c046" Name="VirtualTable.DataProvider.D365vn.Create">
+      <FriendlyName>VirtualTable.DataProvider.D365vn.Create</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="VirtualTable.DataProvider.D365vn.Delete, VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginTypeId="7c06d245-d3a7-eb11-9442-00224816c046" Name="VirtualTable.DataProvider.D365vn.Delete">
+      <FriendlyName>VirtualTable.DataProvider.D365vn.Delete</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="VirtualTable.DataProvider.D365vn.Retrieve, VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginTypeId="1dc49b3f-d3a7-eb11-9442-00224816c046" Name="VirtualTable.DataProvider.D365vn.Retrieve">
+      <FriendlyName>VirtualTable.DataProvider.D365vn.Retrieve</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="VirtualTable.DataProvider.D365vn.RetrieveMultiple, VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginTypeId="7906d245-d3a7-eb11-9442-00224816c046" Name="VirtualTable.DataProvider.D365vn.RetrieveMultiple">
+      <FriendlyName>VirtualTable.DataProvider.D365vn.RetrieveMultiple</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="VirtualTable.DataProvider.D365vn.Update, VirtualTable.DataProvider.D365vn, Version=1.0.0.0, Culture=en, PublicKeyToken=5f2e1a6ec83b67de" PluginTypeId="7b06d245-d3a7-eb11-9442-00224816c046" Name="VirtualTable.DataProvider.D365vn.Update">
+      <FriendlyName>VirtualTable.DataProvider.D365vn.Update</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

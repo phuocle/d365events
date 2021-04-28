@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1031</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>D365vnVirtualTable_1.0.0000.0.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="15062:Description,D365vnVirtualTable" xml:space="preserve">
+    <value />
+    <comment> 'D365vnVirtualTable' : Description for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,d365vnd365vn20000" xml:space="preserve">
+    <value />
+    <comment> 'd365vn' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,D365vnVirtualTable" xml:space="preserve">
+    <value />
+    <comment> 'D365vnVirtualTable' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,d365vn_sqldatasourced365vn_sqldatasourceId" xml:space="preserve">
+    <value>Eindeutiger Bezeichner für Entitätsinstanzen</value>
+    <comment>'d365vn_sqldatasource' : Description for Attribute 'd365vn_sqldatasourceId' on Entity</comment>
+  </data>
+  <data name="1:Description,d365vn_sqldatasourceentityd365vn_sqldatasource" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_sqldatasource' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,Sql DataSource{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : Description for systemform in Entity FormXml ID: '{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}'</comment>
+  </data>
+  <data name="1:Description,Sql DataSource{7f263daf-67ae-4fd9-b0f5-e2d084855062}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : Description for systemform in Entity FormXml ID: '{7f263daf-67ae-4fd9-b0f5-e2d084855062}'</comment>
+  </data>
+  <data name="1:Description,Sql DataSource{81e05606-d3a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : Description for SavedQuery on Entity QueryId: '{81e05606-d3a7-eb11-9442-00224816c046}'</comment>
+  </data>
+  <data name="1:displayname,d365vn_sqldatasourced365vn_name" xml:space="preserve">
+    <value />
+    <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,d365vn_sqldatasourced365vn_sqldatasourceId" xml:space="preserve">
+    <value />
+    <comment>'d365vn_sqldatasource' : displayname for Attribute 'd365vn_sqldatasourceId' on Entity</comment>
+  </data>
+  <data name="1:label,Sql DataSource{370fa324-96ba-40c4-b692-394c88e09b72}" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{370fa324-96ba-40c4-b692-394c88e09b72}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{383c68e9-f0ef-406f-ae79-c016ea71e77a}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{383c68e9-f0ef-406f-ae79-c016ea71e77a}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{3c4cdf28-ac44-4505-98c5-a31dd26240ff}" xml:space="preserve">
+    <value>Fußzeile</value>
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{3c4cdf28-ac44-4505-98c5-a31dd26240ff}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{51127052-fa79-43ad-9cbe-916e4329948b}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{51127052-fa79-43ad-9cbe-916e4329948b}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{774e92d8-fbd1-4368-9878-68667364df32}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{774e92d8-fbd1-4368-9878-68667364df32}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{7a3534e5-e201-4844-9b4b-73be8c74f5c3}" xml:space="preserve">
+    <value>ALLGEMEIN</value>
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{7a3534e5-e201-4844-9b4b-73be8c74f5c3}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{8c63396a-b13d-40db-92b6-fdfa1a06ed3a}" xml:space="preserve">
+    <value>Allgemein</value>
+    <comment>'Sql DataSource' : label for tab in Entity FormXml ID: '{8c63396a-b13d-40db-92b6-fdfa1a06ed3a}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{930274b3-d96b-4426-9e6a-300cfdecb4d2}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{930274b3-d96b-4426-9e6a-300cfdecb4d2}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{9527aecf-0143-479f-a5fd-59648a48f2a0}" xml:space="preserve">
+    <value>Kopfzeile</value>
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{9527aecf-0143-479f-a5fd-59648a48f2a0}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{a192b5cf-40b7-4729-ba1a-aff73529a95b}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{a192b5cf-40b7-4729-ba1a-aff73529a95b}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{a703e6f5-299e-473f-8b6d-4904c6530f8f}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for tab in Entity FormXml ID: '{a703e6f5-299e-473f-8b6d-4904c6530f8f}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{b0c42c79-6cae-4056-abea-8634050ecc57}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{b0c42c79-6cae-4056-abea-8634050ecc57}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{b3bc43bc-e7e2-4077-ae6d-ebe18e3aebe4}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{b3bc43bc-e7e2-4077-ae6d-ebe18e3aebe4}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{c9a34fd8-88ef-45d9-ba13-691f63b965d0}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{c9a34fd8-88ef-45d9-ba13-691f63b965d0}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{d0b200c6-a6bf-4bb6-bc2d-4d533f7fab96}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{d0b200c6-a6bf-4bb6-bc2d-4d533f7fab96}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{e7e4c213-0f7d-464b-ae18-f31c75549796}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for tab in Entity FormXml ID: '{e7e4c213-0f7d-464b-ae18-f31c75549796}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{ecd90f97-a08f-4b88-a120-6caca4612821}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for section in Entity FormXml ID: '{ecd90f97-a08f-4b88-a120-6caca4612821}'</comment>
+  </data>
+  <data name="1:label,Sql DataSource{fb7a20d8-f062-41c3-a453-960cedaf6528}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : label for cell in Entity FormXml ID: '{fb7a20d8-f062-41c3-a453-960cedaf6528}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,d365vn_sqldatasourceentityd365vn_sqldatasource" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_sqldatasource' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,d365vn_sqldatasourceentityd365vn_sqldatasource" xml:space="preserve">
+    <value />
+    <comment> 'd365vn_sqldatasource' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for systemform in Entity FormXml ID: '{07be5ebf-a7a0-44d0-b104-8c747c1ff63f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{07e67705-d27b-4c0e-bb44-13e7bb365d22}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{07e67705-d27b-4c0e-bb44-13e7bb365d22}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{1e018f7d-6131-4661-a3aa-e43f6df88b7b}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{1e018f7d-6131-4661-a3aa-e43f6df88b7b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{595bf9a7-adbd-41bb-818c-9138887d604e}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{595bf9a7-adbd-41bb-818c-9138887d604e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{7f263daf-67ae-4fd9-b0f5-e2d084855062}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for systemform in Entity FormXml ID: '{7f263daf-67ae-4fd9-b0f5-e2d084855062}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{81e05606-d3a7-eb11-9442-00224816c046}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{81e05606-d3a7-eb11-9442-00224816c046}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{9cfda679-6f93-4b29-acd7-cdf59a06e56a}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{9cfda679-6f93-4b29-acd7-cdf59a06e56a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{b7d78b8b-2325-4c51-a233-b6c88380051d}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for SavedQuery on Entity QueryId: '{b7d78b8b-2325-4c51-a233-b6c88380051d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Sql DataSource{efbd9c5b-e70e-4912-be03-15b0990bce3b}" xml:space="preserve">
+    <value />
+    <comment>'Sql DataSource' : LocalizedName for systemform in Entity FormXml ID: '{efbd9c5b-e70e-4912-be03-15b0990bce3b}'</comment>
+  </data>
+</root>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{07e67705-d27b-4c0e-bb44-13e7bb365d22}</savedqueryid>
+    <layoutxml>
+      <grid name="d365vn_sqldatasources" jump="d365vn_name" select="1" icon="1" preview="1">
+        <row name="d365vn_sqldatasource" id="d365vn_sqldatasourceid">
+          <cell name="d365vn_name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="d365vn_sqldatasource">
+          <attribute name="d365vn_sqldatasourceid" />
+          <attribute name="d365vn_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Sql DataSource Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
