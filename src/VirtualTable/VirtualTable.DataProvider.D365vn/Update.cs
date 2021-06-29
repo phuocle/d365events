@@ -6,7 +6,7 @@ using VirtualTable.Shared.Entities;
 
 namespace VirtualTable.DataProvider.D365vn
 {
-    [CrmPluginRegistration("VirtualTable.DataProvider.D365vn.Update", VirtualTablePlugin.Update)]
+    [CrmPluginRegistration("VirtualTable.DataProvider.D365vn.Update", "Update", PluginType.DataProvider, DataSource = "d365vn_sqldatasource")]
     public class Update : IPlugin
     {
         /*
@@ -21,13 +21,13 @@ namespace VirtualTable.DataProvider.D365vn
            OutputParameters:
         */
 
-        //private readonly string _unsecureString = null;
-        //private readonly string _secureString = null;
+        //private readonly string unSecureConfiguration = null;
+        //private readonly string secureConfiguration = null;
 
-        //public Update(string unsecureString, string secureString)
+        //public Update(string unSecureConfiguration, string secureConfiguration)
         //{
-        //    if (!string.IsNullOrWhiteSpace(unsecureString)) _unsecureString = unsecureString;
-        //    if (!string.IsNullOrWhiteSpace(secureString)) _secureString = secureString;
+        //    this.unSecureConfiguration = unSecureConfiguration;
+        //    this.secureConfiguration = secureConfiguration;
         //}
 
         public void Execute(IServiceProvider serviceProvider)
@@ -39,12 +39,13 @@ namespace VirtualTable.DataProvider.D365vn
             var retriever = serviceProvider.Get<IEntityDataSourceRetrieverService>();
             var dataSource = retriever.RetrieveEntityDataSource();
 
-            //tracing.DebugMessage("Begin Data Provider: VirtualTable.DataProvider.D365vn.Update");
-            //tracing.DebugContext(context);
+            tracing.DebugMessage("Begin Data Provider: VirtualTable.DataProvider.D365vn.Update");
+            tracing.DebugContext(context);
+            tracing.DebugMessage(dataSource.ToDebug());
 
             ExecutePlugin(context, serviceFactory, service, tracing, dataSource);
 
-            //tracing.DebugMessage("End Data Provider: VirtualTable.DataProvider.D365vn.Update");
+            tracing.DebugMessage("End Data Provider: VirtualTable.DataProvider.D365vn.Update");
         }
 
         private void ExecutePlugin(IPluginExecutionContext context, IOrganizationServiceFactory serviceFactory, IOrganizationService service, ITracingService tracing, Entity dataSource)
@@ -56,6 +57,7 @@ namespace VirtualTable.DataProvider.D365vn
             //var target = context.InputParameterOrDefault<Entity>("Target");
 
             //YOUR CODE ...
+
             var setting = new d365vn_sqldatasource(dataSource);
             SqlHelper.Update(setting, context, service, tracing);
         }

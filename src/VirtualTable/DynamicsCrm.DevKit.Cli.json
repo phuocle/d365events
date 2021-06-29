@@ -1,74 +1,97 @@
 ﻿{
-  "dataproviders": [
+  "servers": [
     {
       "profile": "DEBUG",
-      "folder": "bin\\Debug",
       "solution": "D365vnVirtualTable",
-      "datasource": "SqlDataSource",
+      "folder": "bin\\Debug",
       "includefiles": [
         "VirtualTable.DataProvider.*.dll"
       ],
       "excludefiles": [
-        "VirtualTable.*.Test.dll"
       ]
     }
   ],
   "datasources": [
     {
       "profile": "DEBUG",
+      "solution": "D365vnVirtualTable",
       "displayname": "Sql DataSource",
       "pluralname": "Sql DataSources",
-      "solution": "D365vnVirtualTable",
       "name": "SqlDataSource"
     }
   ],
   "solutionpackagers": [
     {
-      "profile": "Extract-Unmanaged",
-      "rootfolder": "",
+      "profile": "Extract-Unmanaged-D365vnVirtualTable",
       "solution": "D365vnVirtualTable",
+      "rootfolder": "",
       "solutiontype": "Unmanaged",
       "folder": "D365vnVirtualTable",
       "type": "Extract",
       "mapfile": ""
     },
     {
-      "profile": "Extract-Managed",
-      "rootfolder": "",
+      "profile": "Extract-Managed-D365vnVirtualTable",
       "solution": "D365vnVirtualTable",
+      "rootfolder": "",
       "solutiontype": "Managed",
       "folder": "D365vnVirtualTable",
       "type": "Extract",
       "mapfile": ""
     },
     {
-      "profile": "Extract-Unmanaged-Sample",
-      "rootfolder": "",
+      "profile": "Extract-Unmanaged-D365vnVirtualTableSample",
       "solution": "D365vnVirtualTableSample",
+      "rootfolder": "",
       "solutiontype": "Unmanaged",
       "folder": "D365vnVirtualTableSample",
       "type": "Extract",
       "mapfile": ""
     },
     {
-      "profile": "Extract-Managed-Sample",
-      "rootfolder": "",
+      "profile": "Extract-Managed-D365vnVirtualTableSample",
       "solution": "D365vnVirtualTableSample",
+      "rootfolder": "",
       "solutiontype": "Managed",
       "folder": "D365vnVirtualTableSample",
       "type": "Extract",
+      "mapfile": ""
+    },
+    {
+      "profile": "Pack-Unmanaged",
+      "solution": "???",
+      "rootfolder": "",
+      "solutiontype": "Unmanaged",
+      "folder": "???",
+      "type": "Pack",
+      "mapfile": ""
+    },
+    {
+      "profile": "Pack-Managed",
+      "solution": "???",
+      "rootfolder": "",
+      "solutiontype": "Managed",
+      "folder": "???",
+      "type": "Pack",
       "mapfile": ""
     }
   ],
   "generators": [
     {
       "profile": "LATEBOUND",
+      "type": "CSharp",
       "rootnamespace": "???",
       "rootfolder": "???",
-      "crmversion": "365",
-      "type": "CSharp",
-      "entities": "",
-      "debug": ""
+      "entities": "folder",
+      "debug": "?"
+    }
+  ],
+  "proxytypes": [
+    {
+      "profile": "ALL",
+      "namespace": "???",
+      "output": "GeneratedCode.cs",
+      "entities": "*"
     }
   ]
 }

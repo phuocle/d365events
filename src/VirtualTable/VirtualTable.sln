@@ -3,36 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VirtualTable.Shared", "VirtualTable.Shared\VirtualTable.Shared.shproj", "{B9CD7911-1375-4FD6-9C7D-E9243DA9DBD3}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VirtualTable.Shared", "VirtualTable.Shared\VirtualTable.Shared.shproj", "{7ABBFD41-F32B-4D8A-9AE6-2B634103A3BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualTable.DataProvider.D365vn", "VirtualTable.DataProvider.D365vn\VirtualTable.DataProvider.D365vn.csproj", "{454C0169-5695-4F73-AFF1-FF98E3E17888}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualTable.DataProvider.D365vn", "VirtualTable.DataProvider.D365vn\VirtualTable.DataProvider.D365vn.csproj", "{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{610B86F1-154C-498D-B334-87442FE33CFA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4EF05586-6683-4E53-BE34-401BAC05964A}"
 	ProjectSection(SolutionItems) = preProject
 		DynamicsCrm.DevKit.Cli.json = DynamicsCrm.DevKit.Cli.json
 		DynamicsCrm.DevKit.json = DynamicsCrm.DevKit.json
+		note.txt = note.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualTable.SolutionPackager", "VirtualTable.SolutionPackager\VirtualTable.SolutionPackager.csproj", "{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualTable.SolutionPackager", "VirtualTable.SolutionPackager\VirtualTable.SolutionPackager.csproj", "{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		VirtualTable.Shared\VirtualTable.Shared.projitems*{454c0169-5695-4f73-aff1-ff98e3e17888}*SharedItemsImports = 4
-		VirtualTable.Shared\VirtualTable.Shared.projitems*{b9cd7911-1375-4fd6-9c7d-e9243da9dbd3}*SharedItemsImports = 13
+		VirtualTable.Shared\VirtualTable.Shared.projitems*{7abbfd41-f32b-4d8a-9ae6-2b634103a3bc}*SharedItemsImports = 13
+		VirtualTable.Shared\VirtualTable.Shared.projitems*{b1e5b45b-5a83-4fd3-893f-eea8e21e6a4a}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{454C0169-5695-4F73-AFF1-FF98E3E17888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{454C0169-5695-4F73-AFF1-FF98E3E17888}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{454C0169-5695-4F73-AFF1-FF98E3E17888}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{454C0169-5695-4F73-AFF1-FF98E3E17888}.Release|Any CPU.Build.0 = Release|Any CPU
-		{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
