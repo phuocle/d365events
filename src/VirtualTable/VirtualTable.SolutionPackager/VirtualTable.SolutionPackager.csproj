@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{898B69C2-FDEF-4790-8ABF-AF8C6EA85C49}</ProjectGuid>
+    <ProjectGuid>{CC5F04A3-0D03-436B-9ED7-892C75DE41B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VirtualTable.SolutionPackager</RootNamespace>
@@ -36,14 +36,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Extract-Managed-Sample.bat" />
-    <None Include="Extract-Unmanaged-Sample.bat" />
+    <None Include="Extract-Managed-D365vnVirtualTableSample.bat" />
+    <None Include="Extract-Unmanaged-D365vnVirtualTableSample.bat" />
     <None Include="packages.config" />
-    <None Include="Extract-Managed.bat" />
-    <None Include="Extract-Unmanaged.bat" />
+    <None Include="Extract-Managed-D365vnVirtualTable.bat" />
+    <None Include="Extract-Unmanaged-D365vnVirtualTable.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\DynamicsCrm.DevKit.Analyzers.2.12.31\analyzers\dotnet\cs\DynamicsCrm.DevKit.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Analyzer Include="..\packages\DynamicsCrm.DevKit.Analyzers.2.10.31\analyzers\dotnet\cs\DynamicsCrm.DevKit.Analyzers.dll" />
-  </ItemGroup>
 </Project>

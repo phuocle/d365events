@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{454C0169-5695-4F73-AFF1-FF98E3E17888}</ProjectGuid>
+    <ProjectGuid>{B1E5B45B-5A83-4FD3-893F-EEA8E21E6A4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VirtualTable.DataProvider.D365vn</RootNamespace>
@@ -36,13 +36,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Crm.Sdk.Proxy">
-      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.33\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.34\lib\net462\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk">
-      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.33\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.34\lib\net462\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk.Data">
-      <HintPath>..\packages\Microsoft.CrmSdk.Data.9.0.2.33\lib\net462\Microsoft.Xrm.Sdk.Data.dll</HintPath>
+      <HintPath>..\packages\Microsoft.CrmSdk.Data.9.0.2.34\lib\net462\Microsoft.Xrm.Sdk.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -61,14 +61,14 @@
     <Compile Include="App_Packages\MarkMpn.Sql4Cds.Engine\FetchXml2Sql.cs" />
     <Compile Include="App_Packages\MarkMpn.Sql4Cds.Engine\IAttributeMetadataCache.cs" />
     <Compile Include="App_Packages\MarkMpn.Sql4Cds.Engine\ScriptDom.cs" />
+    <Compile Include="Create.cs" />
+    <Compile Include="Delete.cs" />
     <Compile Include="Mapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Retrieve.cs" />
     <Compile Include="RetrieveMultiple.cs" />
-    <Compile Include="Create.cs" />
     <Compile Include="SqlHelper.cs" />
     <Compile Include="Update.cs" />
-    <Compile Include="Delete.cs" />
     <None Include="packages.config" />
     <None Include="deploy.debug.bat" />
     <None Include="deploy.datasource.bat" />

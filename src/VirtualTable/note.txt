@@ -1,0 +1,2 @@
+https://dev-devkit.crm5.dynamics.com/main.aspx
+dev@pldevkit.onmicrosoft.com

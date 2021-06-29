@@ -6,7 +6,7 @@ using VirtualTable.Shared.Entities;
 
 namespace VirtualTable.DataProvider.D365vn
 {
-    [CrmPluginRegistration("VirtualTable.DataProvider.D365vn.Retrieve", VirtualTablePlugin.Retrieve)]
+    [CrmPluginRegistration("VirtualTable.DataProvider.D365vn.Retrieve", "Retrieve", PluginType.DataProvider, DataSource = "d365vn_sqldatasource")]
     public class Retrieve : IPlugin
     {
         /*
@@ -20,13 +20,13 @@ namespace VirtualTable.DataProvider.D365vn
               Notifications            - require
         */
 
-        //private readonly string _unsecureString = null;
-        //private readonly string _secureString = null;
+        //private readonly string unSecureConfiguration = null;
+        //private readonly string secureConfiguration = null;
 
-        //public Retrieve(string unsecureString, string secureString)
+        //public Retrieve(string unSecureConfiguration, string secureConfiguration)
         //{
-        //    if (!string.IsNullOrWhiteSpace(unsecureString)) _unsecureString = unsecureString;
-        //    if (!string.IsNullOrWhiteSpace(secureString)) _secureString = secureString;
+        //    this.unSecureConfiguration = unSecureConfiguration;
+        //    this.secureConfiguration = secureConfiguration;
         //}
 
         public void Execute(IServiceProvider serviceProvider)
@@ -38,12 +38,13 @@ namespace VirtualTable.DataProvider.D365vn
             var retriever = serviceProvider.Get<IEntityDataSourceRetrieverService>();
             var dataSource = retriever.RetrieveEntityDataSource();
 
-            //tracing.DebugMessage("Begin Data Provider: VirtualTable.DataProvider.D365vn.Retrieve");
-            //tracing.DebugContext(context);
+            tracing.DebugMessage("Begin Data Provider: VirtualTable.DataProvider.D365vn.Retrieve");
+            tracing.DebugContext(context);
+            tracing.DebugMessage(dataSource.ToDebug());
 
             ExecutePlugin(context, serviceFactory, service, tracing, dataSource);
 
-            //tracing.DebugMessage("End Data Provider: VirtualTable.DataProvider.D365vn.Retrieve");
+            tracing.DebugMessage("End Data Provider: VirtualTable.DataProvider.D365vn.Retrieve");
         }
 
         private void ExecutePlugin(IPluginExecutionContext context, IOrganizationServiceFactory serviceFactory, IOrganizationService service, ITracingService tracing, Entity dataSource)
@@ -54,6 +55,8 @@ namespace VirtualTable.DataProvider.D365vn
 
             //var target = context.InputParameterOrDefault<EntityReference>("Target");
             //var entity = new Entity("???", target.Id);
+
+            //YOUR CODE ...
 
             var setting = new d365vn_sqldatasource(dataSource);
             context.OutputParameters["BusinessEntity"] = SqlHelper.Retrieve(setting, context, service, tracing);
