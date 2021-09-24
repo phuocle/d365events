@@ -1,0 +1,13 @@
+Step by Step DEMO
+
+1. Connections
+2. Console app with 3 type Connections
+3. ViewFetch-XML
+4. Late Bound
+5. Problem with All-In-One plugins
+6. Plugin with entity D365 Event with unit test
+7. WebResource with unit test
+8. Convert server
+9. Convert webresource
+10. Reports
+
