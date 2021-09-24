@@ -1,3 +1,0 @@
-https://dynamicscrm-devkit-sep-2021.crm.dynamics.com/
-user: admin@CRM232358.onmicrosoft.com
-pass: 3Sg3T4Ya3P
