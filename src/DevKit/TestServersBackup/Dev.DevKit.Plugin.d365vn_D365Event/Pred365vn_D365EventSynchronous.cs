@@ -46,7 +46,7 @@ namespace Dev.DevKit.Plugind365vn_D365Event
             //if (context.MessageName.ToLower() != "Create".ToLower()) throw new InvalidPluginExecutionException("MessageName does not equals Create");
             if (context.Mode != (int)ExecutionModeEnum.Synchronous) throw new InvalidPluginExecutionException("Execution does not equals Synchronous");
 
-            //tracing.DebugContext(context);
+            tracing.DebugContext(context);
 
             ExecutePlugin(context, serviceFactory, service, tracing);
         }
