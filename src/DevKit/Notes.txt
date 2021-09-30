@@ -1,0 +1,14 @@
+Step by Step DEMO
+
+0. Analyzers (folder: TestAnalyzers)
+1. Connections (folder: TestServers)
+2. Console app with 3 type Connections (folder: TestServers)
+3. ViewFetch-XML (folder: TestServers)
+4. Late Bound (folder: TestServers)
+5. Plugin with entity D365 Event with unit test (folder: TestServers - TestServersBackup - TestServersUnitTest)
+6. Problem with All-In-One plugins (TestServer-dev-A - TestServer-dev-B)
+7. WebResource with unit test (TestWebResources - TestWebResources-dev-A)
+8. Convert server (folder TestExistingServers)
+9. Convert webresource (folder TestExistingWebResources)
+10. Reports (folder TestExistingReports)
+
