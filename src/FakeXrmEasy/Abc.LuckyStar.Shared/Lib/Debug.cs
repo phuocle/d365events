@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace Abc.LuckyStar.Shared
 {
+    [System.Diagnostics.DebuggerNonUserCode()]
     public class DebugContext
     {
         public Guid? BusinessUnitId { get; set; }
@@ -33,6 +34,7 @@ namespace Abc.LuckyStar.Shared
         public Dictionary<string, object> PostEntityImages { get; set; }
         public Dictionary<string, object> PreEntityImages { get; set; }
     }
+    [System.Diagnostics.DebuggerNonUserCode()]
     public class DebugEntity
     {
         public List<DebugAttributeValue> Attributes { get; set; }
@@ -42,11 +44,13 @@ namespace Abc.LuckyStar.Shared
         public string LogicalName { get; set; }
         public string RowVersion { get; set; }
     }
+    [System.Diagnostics.DebuggerNonUserCode()]
     public class DebugEntityReference
     {
         public Guid? EntityReferenceId { get; set; }
         public string LogicalName { get; set; }
     }
+    [System.Diagnostics.DebuggerNonUserCode()]
     public class DebugAttributeValue
     {
         public string LogicalName { get; set; }
