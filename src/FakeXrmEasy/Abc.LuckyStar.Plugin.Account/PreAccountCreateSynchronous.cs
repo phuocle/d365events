@@ -43,7 +43,7 @@ namespace Abc.LuckyStar.PluginAccount
             if (context.MessageName.ToLower() != "Create".ToLower()) throw new InvalidPluginExecutionException("MessageName does not equals Create");
             if (context.Mode != (int)ExecutionModeEnum.Synchronous) throw new InvalidPluginExecutionException("Execution does not equals Synchronous");
 
-            //tracing.DebugContext(context);
+            tracing.DebugContext(context);
 
             ExecutePlugin(context, serviceFactory, service, tracing);
         }
@@ -80,9 +80,7 @@ namespace Abc.LuckyStar.PluginAccount
             if (rows.Entities.Count == 0) return 0;
             var firstRow = rows.Entities[0];
             var accountNumber = firstRow.GetAttributeValue<string>("accountnumber");
-            if (accountNumber.StartsWith("ACC-"))
-                return int.Parse(accountNumber.Substring("ACC-".Length));
-            throw new InvalidPluginExecutionException("Account incorrect format");
+            return int.Parse(accountNumber.Substring("ACC-".Length));
         }
     }
 }
