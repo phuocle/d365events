@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		DynamicsCrm.DevKit.Cli.json = DynamicsCrm.DevKit.Cli.json
 		DynamicsCrm.DevKit.json = DynamicsCrm.DevKit.json
+		VisualStudioTest.runsettings = VisualStudioTest.runsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abc.LuckyStar.Workflows", "Abc.LuckyStar.Workflows\Abc.LuckyStar.Workflows.csproj", "{C7C028DA-BFED-4509-93D2-672C688D46C6}"
