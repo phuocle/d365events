@@ -1,0 +1,12 @@
+﻿{
+    "DefaultCrmConnection": "orga451b5d1.crm5.dynamics.com",
+    "CrmConnections": [
+        {
+            "Name": "orga451b5d1.crm5.dynamics.com",
+            "Url": "https://orga451b5d1.crm5.dynamics.com",
+            "UserName": "a7425f91-f52a-4ebb-a293-9cb8424136d7",
+            "Password": "PoU7Q~zxtbd5W1.D~qmWjKXbgelNaVhY0EWka",
+            "Type": "ClientSecret"
+        }
+    ]
+}
