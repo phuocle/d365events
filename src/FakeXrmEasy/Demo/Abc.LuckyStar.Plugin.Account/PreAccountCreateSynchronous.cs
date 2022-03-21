@@ -60,7 +60,9 @@ namespace Abc.LuckyStar.PluginAccount
         private void SetAccountNumber(IOrganizationService service, ITracingService tracing, Entity target)
         {
             var accountNumber = GetLatestAccountNumber(service);
-            target["accountnumber"] = $"ACC-{(accountNumber+1).ToString("00000")}";
+            if (target.Contains("Abc")) {
+                target["accountnumber"] = $"ACC-{(accountNumber + 2).ToString("00000")}"; //ACC-00001 -> ... -> ACC-00003 -> ACC-00004 -> .. -> ACC-00005
+            }
         }
 
         private int GetLatestAccountNumber(IOrganizationService service)

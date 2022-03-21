@@ -126,7 +126,7 @@
       "profile": "ALL",
       "namespace": "Abc.LuckyStar.ProxyTypes",
       "output": "GeneratedCode.cs",
-      "entities": "*"
+      "entities": "account,contact,phonecall"
     }
   ]
 }
