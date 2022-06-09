@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Abc.Xyz.Shared", "Abc.Xyz.Shared\Abc.Xyz.Shared.shproj", "{870917E6-8B91-48BD-9275-A2A50F0B6A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abc.Xyz.Plugin.Account", "Abc.Xyz.Plugin.Account\Abc.Xyz.Plugin.Account.csproj", "{394A1244-D3A6-486C-A762-F723BE1AE11B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Abc.Xyz.Shared\Abc.Xyz.Shared.projitems*{394a1244-d3a6-486c-a762-f723be1ae11b}*SharedItemsImports = 4
+		Abc.Xyz.Shared\Abc.Xyz.Shared.projitems*{870917e6-8b91-48bd-9275-a2a50f0b6a0e}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394A1244-D3A6-486C-A762-F723BE1AE11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A1244-D3A6-486C-A762-F723BE1AE11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A1244-D3A6-486C-A762-F723BE1AE11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A1244-D3A6-486C-A762-F723BE1AE11B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AD336AC-E451-4FC0-BE90-A25F2E56FAF3}
+	EndGlobalSection
+EndGlobal

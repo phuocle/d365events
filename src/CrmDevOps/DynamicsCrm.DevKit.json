@@ -1,0 +1,12 @@
+﻿{
+    "DefaultCrmConnection": "DevOps1",
+    "CrmConnections": [
+        {
+            "Name": "DevOps1",
+            "Url": "https://orgc0877a1f.crm5.dynamics.com",
+            "UserName": "b2e1ffb7-4163-4d60-87b4-e504321ecd60",
+            "Password": "HcI8Q~lQYb-7Em1JeX7mZ2GgRxP1RRbtGcG0Kazd",
+            "Type": "ClientSecret"
+        }
+    ]
+}
