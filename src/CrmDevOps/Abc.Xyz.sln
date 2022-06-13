@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abc.Xyz.SolutionPackager", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abc.Xyz.Console", "Abc.Xyz.Console\Abc.Xyz.Console.csproj", "{B67546C9-0810-4FE2-9C49-4EDD75FBF918}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90A204CB-CE55-402B-BA2C-EFD3C17F28D2}"
+	ProjectSection(SolutionItems) = preProject
+		DynamicsCrm.DevKit.Cli.json = DynamicsCrm.DevKit.Cli.json
+		DynamicsCrm.DevKit.json = DynamicsCrm.DevKit.json
+		notes.txt = notes.txt
+		VisualStudioTest.runsettings = VisualStudioTest.runsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Abc.Xyz.Shared\Abc.Xyz.Shared.projitems*{394a1244-d3a6-486c-a762-f723be1ae11b}*SharedItemsImports = 4
@@ -52,11 +60,7 @@ Global
 		{D0E83092-3FE2-48A3-B9CA-1DE9D7458AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E83092-3FE2-48A3-B9CA-1DE9D7458AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Debug|Any CPU.ActiveCfg = Debug
-		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Debug|Any CPU.Build.0 = Debug
-		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Debug|Any CPU.Deploy.0 = Debug
 		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Release|Any CPU.ActiveCfg = Release
-		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Release|Any CPU.Build.0 = Release
-		{C7FB3B88-D6F2-4A7B-AA22-B46EAEFFA861}.Release|Any CPU.Deploy.0 = Release
 		{95C9C2D2-868D-4133-9666-E7FF31A64D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95C9C2D2-868D-4133-9666-E7FF31A64D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C9C2D2-868D-4133-9666-E7FF31A64D47}.Release|Any CPU.ActiveCfg = Release|Any CPU

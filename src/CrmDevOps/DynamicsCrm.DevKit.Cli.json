@@ -124,7 +124,7 @@
   "proxytypes": [
     {
       "profile": "ALL",
-      "namespace": "???",
+      "namespace": "Abc.Xyz.ProxyTypes",
       "output": "GeneratedCode.cs",
       "entities": "*"
     }
